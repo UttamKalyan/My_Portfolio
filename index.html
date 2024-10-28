@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./portfolio.css" />
+    <link rel="icon" href="./images/address-card-solid.svg" type="svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">My <span>Portfolio</span></a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello it's Me</h3>
+        <h1 id="uttam">Mudideni Uttam Kalyan</h1>
+        <h3>I am a <span>Fullstack Developer</span></h3>
+        <p>
+          "Hi! I'm a Full Stack Developer who builds websites from front to
+          back. I use tools like JavaScript, React, and Node.js to create
+          smooth, user-friendly experiences. Check out my work to see what I’ve
+          built!"
+        </p>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/uttam-kalyan-868a2322b/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/uttam_kalyan_24/" target="_self"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61553909169771"
+            target="_self"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://x.com/UttamKalyan1"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </div>
+        <a href="./images/Resume1.pdf" class="btn"
+          ><i class="fa-solid fa-file-arrow-down"></i> Resume</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="./images/me.jpg" alt="Image" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./images/about_me.jpg" alt="about" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Mudideni Uttam Kalyan</h3>
+        <p>
+          Hello! I’m Uttam Kalyan, a computer science student at KLR College of
+          Engineering and Technology with a strong interest in full-stack
+          development. Over the past few years, I've gained hands-on experience
+          building web applications using technologies like HTML, CSS,
+          JavaScript, and backend frameworks such as Node.js and Python. I
+          recently completed a project where I Created a personal portfolio,
+          which deepened my understanding of end-to-end development. I’m excited
+          to bring my skills and passion for creating functional, user-friendly
+          applications to your team!
+        </p>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+      <div class="projects-container">
+        <div class="projects-box">
+          <img
+            src="./images/student-performance-insights-image.webp"
+            alt="project-img"
+          />
+          <div class="projects-layer">
+            <h4>Student Performance Insights</h4>
+            <p>
+              The project analyzes student performance by integrating academic
+              grades with parental involvement, parent occupations, and chosen
+              courses. This combined data provides educators and parents with
+              insights into how these factors impact overall student
+              performance. <br />
+              • Key Skills: Power Bi, SQL Server Management System, MS Excel
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="projects-box">
+          <img
+            src="./images/Product Sales Analysis_1_Image 2.png"
+            alt="project-img"
+          />
+          <div class="projects-layer">
+            <h4>Product Sales Analytics</h4>
+            <p>
+              This project involves collecting and cleaning pizza sales data
+              using SQL to extract meaningful trends. This proceeds data is then
+              visualized in PowerBI, which provides interactive dashboards and
+              reports to help stakeholders easily understand key performance
+              indicators. <br />
+              • Key Skills: Power Bi, SQL Server Management System, MS Excel
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="projects-box">
+          <img src="./images/Portfolio-image.jpg" alt="project-img" />
+          <div class="projects-layer">
+            <h4>Portfolio</h4>
+            <p>
+              I developed a responsive personal portfolio website using HTML and
+              CSS to showcase my projects, skills, and background. The site
+              includes a clean, minimalistic design with sections for project
+              highlights, an about me section, and contact information. I
+              focused on creating an intuitive user experience, incorporating
+              animations and media queries for optimal viewing across devices.
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="7"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="button" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; by Mudideni Uttam Kalyan</p>
+      </div>
+      <div class="top-icon">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
